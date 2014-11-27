@@ -19,3 +19,6 @@ Models for 3D Computer Graphics
   - a list of normals (probably)
   - a list of triangles, with indices into the other lists (same index for all)
 
+- the **standard** approach to rendering indexed models is with ```glDrawElements```
+  - https://www.opengl.org/sdk/docs/man/html/glDrawElements.xhtml
+  - http://www.arcsynthesis.org/gltut/Positioning/Tutorial%2005.html
